@@ -1485,7 +1485,7 @@ footer ul li:hover {
     flex-shrink: 0;
     border: 1px solid rgba(44, 154, 1, 0.35);
     border-radius: 50%;
-    background: rgba(11, 17, 23, 0.92);
+    background: #7dff6c;
     cursor: pointer;
   }
 
@@ -1493,7 +1493,7 @@ footer ul li:hover {
     width: 20px;
     height: 2px;
     border-radius: 2px;
-    background: #7dff6c;
+    background: #000;
     transition:
       transform 0.25s ease,
       opacity 0.25s ease;
