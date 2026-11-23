@@ -1,0 +1,11 @@
+# Static HTML/CSS portfolio — no build step required.
+# These settings override the build command and publish directory set in the Netlify UI.
+[build]
+  command = "echo 'Static site, no build step required'"
+  publish = "."
+
+# The homepage lives in abd.html (there is no index.html), so serve it at the root URL.
+[[redirects]]
+  from = "/"
+  to = "/abd.html"
+  status = 200
