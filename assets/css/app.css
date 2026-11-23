@@ -1225,7 +1225,7 @@ footer ul li:hover {
     right: 0;
     width: min(260px, calc(100vw - 32px));
     padding: 14px;
-    border: rgba(44, 154, 1, 0.35);
+    border: 1px solid rgba(44, 154, 1, 0.35);
     border-radius: 22px;
     background: rgb(0, 0, 0);
     backdrop-filter: blur(16px) saturate(180%);
@@ -1485,7 +1485,7 @@ footer ul li:hover {
     flex-shrink: 0;
     border: 1px solid rgba(44, 154, 1, 0.35);
     border-radius: 50%;
-    background: rgba(0, 0, 1, 0.92);
+    background: rgba(11, 17, 23, 0.92);
     cursor: pointer;
   }
 
@@ -1493,7 +1493,7 @@ footer ul li:hover {
     width: 20px;
     height: 2px;
     border-radius: 2px;
-    background: #000;
+    background: #7dff6c;
     transition:
       transform 0.25s ease,
       opacity 0.25s ease;
@@ -1517,7 +1517,7 @@ footer ul li:hover {
     right: 0;
     width: min(260px, calc(100vw - 32px));
     padding: 14px;
-    border: rgba(44, 154, 1, 0.35);
+    border: 1px solid rgba(44, 154, 1, 0.35);
     border-radius: 22px;
     background: rgb(0, 0, 0);
     backdrop-filter: blur(16px) saturate(180%);

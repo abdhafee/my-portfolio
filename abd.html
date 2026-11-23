@@ -469,7 +469,7 @@
         );
       });
 
-      headerNav.querySelectorAll("a").forEach((link) => {
+      headerNav.querySelectorAll("li, a").forEach((link) => {
         link.addEventListener("click", () => {
           headerNav.classList.remove("is-open");
           menuToggle.classList.remove("is-open");
