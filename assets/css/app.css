@@ -122,7 +122,7 @@ button {
   color: #7dff6c;
 }
 
-.head-nav>button {
+.head-nav > button {
   padding: 14px 24px;
   border: none;
   border-radius: 30px;
@@ -203,7 +203,7 @@ main {
   padding: 140px 8% 80px;
 }
 
-.hero-content>div {
+.hero-content > div {
   width: 100%;
   padding: 0;
 }
@@ -235,7 +235,7 @@ main {
   line-height: 1.9;
 }
 
-.hero-content>div:nth-child(4) {
+.hero-content > div:nth-child(4) {
   display: flex;
   flex-wrap: wrap;
   gap: 12px;
@@ -245,10 +245,8 @@ main {
   padding: 13px 22px;
   border: 1px solid #7dff6c;
   border-radius: 30px;
-
   background: #7dff6c;
   color: #000;
-
   font-size: 13px;
   font-weight: 700;
 
@@ -274,7 +272,7 @@ main {
   gap: 18px;
 }
 
-.hero-content .skills>div:first-child {
+.hero-content .skills > div:first-child {
   display: flex;
   align-items: center;
   padding-left: 7px;
@@ -283,17 +281,13 @@ main {
 .hero-content .skills span {
   width: 35px;
   height: 35px;
-
   display: flex;
   justify-content: center;
   align-items: center;
-
   margin-left: -7px;
   padding: 0;
-
   border: 2px solid #0b1117;
   border-radius: 50%;
-
   font-size: 9px;
   font-weight: 900;
   color: #000;
@@ -311,13 +305,13 @@ main {
   background: #ff8b33;
 }
 
-.hero-content .skills>div:last-child p {
+.hero-content .skills > div:last-child p {
   font-size: 11px;
   line-height: 1.6;
   margin-bottom: 3px;
 }
 
-.hero-content .skills>div:last-child p:first-child {
+.hero-content .skills > div:last-child p:first-child {
   color: white;
   font-weight: 700;
 }
@@ -325,11 +319,9 @@ main {
 .hero-content {
   position: relative;
   z-index: 2;
-
   width: 100%;
   max-width: 700px;
   min-width: 0;
-
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -365,14 +357,11 @@ main {
 .hero-video {
   position: absolute;
   inset: 0;
-
   width: 100%;
   height: 100%;
   max-width: none;
-
   z-index: 0;
   overflow: hidden;
-
   margin: 0;
   border-radius: 0;
   aspect-ratio: auto;
@@ -380,20 +369,17 @@ main {
   box-shadow: none;
 }
 
-.hero-video>div {
+.hero-video > div {
   width: 100%;
   height: 100%;
 }
 
 .hero-video video {
   display: block;
-
   width: 100%;
   height: 100%;
-
   object-fit: cover;
   object-position: center;
-
   border: none;
   border-radius: 0;
   transform: none;
@@ -401,46 +387,39 @@ main {
 
 .hero::after {
   content: "";
-
   position: absolute;
   inset: 0;
-
   z-index: 1;
   pointer-events: none;
-
-  background: linear-gradient(90deg,
-      rgba(5, 10, 15, 0.94),
-      rgba(5, 10, 15, 0.72),
-      rgba(5, 10, 15, 0.3));
+  background: linear-gradient(
+    90deg,
+    rgba(5, 10, 15, 0.94),
+    rgba(5, 10, 15, 0.72),
+    rgba(5, 10, 15, 0.3)
+  );
 }
 
 .project-section {
   width: 100%;
-
   display: grid;
   grid-template-columns: repeat(4, minmax(0, 1fr));
-
   margin-top: 0;
-
   background: #080e14;
   border-top: 1px solid #30383e;
   border-bottom: 1px solid #30383e;
-
   position: relative;
   z-index: 3;
 }
 
-.project-section>div {
+.project-section > div {
   min-width: 0;
   padding: 35px 25px;
-
   display: flex;
   align-items: center;
-
   border-right: 1px solid #30383e;
 }
 
-.project-section>div:last-child {
+.project-section > div:last-child {
   border-right: none;
 }
 
@@ -467,15 +446,13 @@ main {
 .selected-works {
   width: 100%;
   max-width: 1180px;
-
   margin: 0 auto;
   padding: 110px 25px;
-
   display: flex;
   flex-direction: column;
 }
 
-.selected-works>span {
+.selected-works > span {
   color: #7dff6c;
   font-size: 11px;
   font-weight: 800;
@@ -485,10 +462,8 @@ main {
 .select-work {
   display: grid;
   grid-template-columns: 1fr 1fr;
-
   justify-content: space-between;
   align-items: end;
-
   gap: 40px;
   padding: 20px 0;
 }
@@ -515,13 +490,10 @@ main {
 
 .work-btn button {
   padding: 10px 17px;
-
   border: 1px solid #595959;
   border-radius: 30px;
-
   background: transparent;
   color: #bdbdbd;
-
   font-size: 11px;
   transition: 0.3s;
 }
@@ -535,10 +507,8 @@ main {
 
 .selected-container-cards {
   width: 100%;
-
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
-
   gap: 22px;
   height: auto;
   padding: 10px 0;
@@ -547,14 +517,11 @@ main {
 .selected-work-cards {
   min-width: 0;
   overflow: hidden;
-
   display: flex;
   flex-direction: column;
-
   background: #101820;
   border: 1px solid #454545;
   border-radius: 18px;
-
   transition: 0.3s;
 }
 
@@ -618,13 +585,10 @@ main {
   margin-top: 10px;
   margin-right: 5px;
   padding: 6px 9px;
-
   color: #bdbdbd;
   background: transparent;
-
   border: 1px solid #585858;
   border-radius: 7px;
-
   font-size: 10px;
   cursor: default;
 }
@@ -632,14 +596,11 @@ main {
 .my-work-main-container {
   width: 100%;
   padding: 90px 10%;
-
   display: flex;
   flex-direction: column;
   gap: 25px;
-
   background: #101820;
   border-top: 1px solid #30383e;
-
   position: relative;
   z-index: 3;
 }
@@ -660,7 +621,6 @@ main {
 
 .my-work-article {
   grid-area: my-work-article;
-
   display: grid;
   grid-template-columns: 1fr 500px;
   justify-content: space-between;
@@ -689,7 +649,6 @@ main {
 
 .my-works-cards {
   grid-area: my-works-cards;
-
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(2, auto);
@@ -699,16 +658,13 @@ main {
 .my-works-card {
   padding: 30px;
   min-height: 200px;
-
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   align-items: flex-start;
-
   border: 1px solid rgba(255, 255, 255, 0.15);
   border-radius: 15px;
   background: rgba(0, 34, 2, 0.099);
-
   transition:
     transform 0.3s ease,
     background 0.3s ease;
@@ -746,11 +702,9 @@ main {
 .process-section {
   width: 100%;
   padding: 90px 10%;
-
   display: flex;
   flex-direction: column;
   gap: 25px;
-
   position: relative;
   z-index: 3;
 }
@@ -765,7 +719,6 @@ main {
 .select-title {
   display: grid;
   grid-template-columns: 1fr 400px;
-
   align-items: end;
   gap: 35px;
 }
@@ -792,20 +745,17 @@ main {
   gap: 15px;
 }
 
-.process-grid>div {
+.process-grid > div {
   min-width: 0;
 }
 
 .process-grid article {
   height: 100%;
   min-height: 180px;
-
   padding: 23px;
-
   background: #0b1117;
   border: 1px solid #414a50;
   border-radius: 15px;
-
   transition: 0.3s;
 }
 
@@ -814,7 +764,7 @@ main {
   transform: translateY(-5px);
 }
 
-.process-grid article>span {
+.process-grid article > span {
   color: #7dff6c;
   font-size: 12px;
   font-weight: 800;
@@ -878,14 +828,14 @@ main {
     0 0 0 76px rgba(16, 32, 22, 0.025);
 }
 
-.contact-box>div,
-.contact-box>.contact-form {
+.contact-box > div,
+.contact-box > .contact-form {
   position: relative;
   z-index: 1;
   min-width: 0;
 }
 
-.contact-box>div {
+.contact-box > div {
   max-width: 590px;
 }
 
@@ -910,7 +860,7 @@ main {
   overflow-wrap: break-word;
 }
 
-.contact-box>div>p {
+.contact-box > div > p {
   max-width: 500px;
   margin: 20px 0 0;
   color: #38523e;
@@ -1152,10 +1102,12 @@ footer ul li:hover {
   }
 
   .hero::after {
-    background: linear-gradient(90deg,
-        rgba(5, 10, 15, 0.94),
-        rgba(5, 10, 15, 0.72),
-        rgba(5, 10, 15, 0.45));
+    background: linear-gradient(
+      90deg,
+      rgba(5, 10, 15, 0.94),
+      rgba(5, 10, 15, 0.72),
+      rgba(5, 10, 15, 0.45)
+    );
   }
 
   .process-section {
@@ -1189,7 +1141,7 @@ footer ul li:hover {
     padding: clamp(28px, 5vw, 44px);
   }
 
-  .contact-box>div {
+  .contact-box > div {
     max-width: 700px;
   }
 
@@ -1198,7 +1150,7 @@ footer ul li:hover {
     font-size: clamp(2.5rem, 7vw, 4rem);
   }
 
-  .contact-box>div>p {
+  .contact-box > div > p {
     max-width: 650px;
   }
 }
@@ -1224,7 +1176,7 @@ footer ul li:hover {
     display: none;
   }
 
-  .head-nav>button {
+  .head-nav > button {
     padding: 12px 16px;
     font-size: 11px;
   }
@@ -1356,7 +1308,7 @@ footer ul li:hover {
     background: rgba(5, 10, 15, 0.76);
   }
 
-  .hero-content>div:nth-child(4) {
+  .hero-content > div:nth-child(4) {
     display: flex;
     flex-wrap: wrap;
     gap: 10px;
@@ -1370,12 +1322,12 @@ footer ul li:hover {
     grid-template-columns: repeat(2, 1fr);
   }
 
-  .project-section>div {
+  .project-section > div {
     padding: 25px 18px;
     border-bottom: 1px solid #30383e;
   }
 
-  .project-section>div:nth-child(2) {
+  .project-section > div:nth-child(2) {
     border-right: none;
   }
 
@@ -1450,7 +1402,7 @@ footer ul li:hover {
     letter-spacing: -0.055em;
   }
 
-  .contact-box>div>p {
+  .contact-box > div > p {
     margin-top: 15px;
     font-size: 14px;
     line-height: 1.7;
@@ -1516,7 +1468,7 @@ footer ul li:hover {
     letter-spacing: 0.5px;
   }
 
-  .head-nav>button {
+  .head-nav > button {
     padding: 10px 13px;
     font-size: 10px;
   }
@@ -1631,7 +1583,7 @@ footer ul li:hover {
     line-height: 1.75;
   }
 
-  .hero-content>div:nth-child(4) {
+  .hero-content > div:nth-child(4) {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -1659,7 +1611,7 @@ footer ul li:hover {
     font-size: 8px;
   }
 
-  .hero-content .skills>div:last-child p {
+  .hero-content .skills > div:last-child p {
     font-size: 10px;
   }
 
@@ -1718,7 +1670,7 @@ footer ul li:hover {
     letter-spacing: -0.055em;
   }
 
-  .contact-box>div>p {
+  .contact-box > div > p {
     margin-top: 15px;
     font-size: 14px;
     line-height: 1.7;
