@@ -1249,7 +1249,7 @@ footer ul li:hover {
     width: 20px;
     height: 2px;
     border-radius: 2px;
-    background: rgba(13, 47, 0, 0.781);
+    background: #7dff6c;
     transition:
       transform 0.25s ease,
       opacity 0.25s ease;
@@ -1287,6 +1287,7 @@ footer ul li:hover {
   }
 
   .navbar.is-open {
+    display: block;
     opacity: 1;
     visibility: visible;
     transform: translateY(0);
@@ -1532,7 +1533,7 @@ footer ul li:hover {
     flex-shrink: 0;
     border: 1px solid rgba(44, 154, 1, 0.35);
     border-radius: 50%;
-    background: rgba(11, 17, 23, 0.92);
+    background: rgba(0, 0, 1, 0.92);
     cursor: pointer;
   }
 
@@ -1540,7 +1541,7 @@ footer ul li:hover {
     width: 20px;
     height: 2px;
     border-radius: 2px;
-    background: rgba(13, 47, 0, 0.781);
+    background: #000;
     transition:
       transform 0.25s ease,
       opacity 0.25s ease;
